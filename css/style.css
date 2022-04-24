@@ -1,0 +1,136 @@
+/* css reset */
+*{
+    margin:-1px;
+    padding:0;
+}
+#navbar{
+    display:flex;
+}
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    width:100%;
+    height:15%;
+    top:0;
+    left: 0;
+    z-index:-1;
+    opacity:0.3;
+}
+#logo img{
+    width:100px;
+    height:100px;
+    filter:invert(100%);
+    margin-left:8px;
+    margin-top:4px;
+}
+#navbar ul{
+    display:flex;
+    margin:20px;
+
+}
+#navbar ul li{
+    padding:4px;
+    list-style:none;
+    text-decoration:none;
+    font-size:32px;
+
+}
+#navbar ul li a{
+    padding:4px;
+    margin:10px;
+    font-size:25px;
+    color:white;
+    text-decoration:none;
+    font-family:'baloo bhai 2',cursive;
+}
+#navbar ul li a:hover{
+    border:3px solid black;
+    background-color:white;
+    color:red;
+    border-radius:100px;
+    text-decoration:underline;
+
+}
+#home{
+  display:flex;
+  flex-direction:column;
+  padding:5px 250px;justify-content:center;
+  align-items:center;
+}
+.h-primary{
+    font-size:55px;
+    font-family:'bree serif'
+}
+#home p{
+    font-family:'hurricane';
+    font-size:25px;
+    
+}
+.btn{
+   width:115px;
+   padding:10px;
+   font-family:'baloo bhai';
+   border:2px solid black;
+   border-radius:15px;
+   color:red;
+}
+#home::before{
+     content:"";
+     background:url('../bg img.jpg') no-repeat center center/cover;
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:60%;
+     z-index:-2;
+     opacity:0.5;
+}
+.btn:hover{
+     background-color: rgb(217, 55, 55);
+     color:rgb(240, 240, 80);
+     cursor:pointer;
+     text-decoration:underline
+}
+#services{
+    DISPLAY:FLEX;
+}
+.center{
+    text-align:center;
+}
+h2{
+    margin-top:130px
+}
+.box img{
+    width:300px;
+    height:300px;
+    border-radius:25px;
+    margin-left:33.5px;
+  margin-top:10px
+}
+.box{
+   border:2px solid black;
+  width:30%;
+  margin-left:30px;
+  border-radius:25px;
+  font-family:'baloo bhai';
+  background-color:rgb(201, 195, 195);
+}
+.box p{
+  padding:15px;
+  margin-left:25px;
+}
+#clients{
+    display:flex;
+    border:2px solid black;
+    margin:5px;
+    border-radius:25px;
+  }
+  .class-item img{
+    width:275px;
+    height:200px;
+    border-radius:15px;
+    margin:20px;
+  }
+
+  

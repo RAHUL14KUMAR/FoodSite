@@ -1,0 +1,43 @@
+/* navigation */
+#navbar{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#logo{
+
+}
+#logo img{
+    width:50px;
+    height:50px;
+    margin-top:2px;
+}
+#navbar ul{
+    margin-top:0px;
+}
+#navbar  ul li a{
+    padding-left:1px;
+    margin:-1px;
+    font-size:15px;
+}
+/* in navigation mera logo aur uska link h */
+
+
+/* home */
+#home{
+    font-size:12px;
+}
+.h-primary{
+    font-size:32px;
+    width:500px;
+    text-align:center;
+    margin-left:-100px;
+}
+.btn{
+
+}
+/* in home mera online mwal wla btn and background picture */
+
+
